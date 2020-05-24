@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Archibald: The Memory Game</title>
+</head>
+
+<body>
+  <h1 class="page-title">Archibald: The Memory Game</h1>
+  <div class="overlay-text visible">
+    Click to Start
+  </div>
+  <div id="game-over-text" class="overlay-text">
+    GAME OVER
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+  <div id="victory-text" class="overlay-text">
+    VICTORY
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+  <div class="game-container">
+    <div class="game-info-container">
+      <div class="game-info">
+        Time <span id="time-remaining">100</span>
+      </div>
+      <div class="game-info">
+        Flips <span id="flips">0</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="archi" src="img/archibald.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="img/brisesm.png">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="archi" src="img/archibald.png">
+      </div>
+
+      <div class="card-front card-face">
+        <img class="card-value" src="img/brisesm.png">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="archi" src="img/archibald.png">
+      </div>
+
+      <div class="card-front card-face">
+        <img class="card-value" src="img/bellemersm.png">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="archi" src="img/archibald.png">
+      </div>
+
+      <div class="card-front card-face">
+        <img class="card-value" src="img/bellemersm.png">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="archi" src="img/archibald.png">
+      </div>
+
+      <div class="card-front card-face">
+        <img class="card-value" src="img/clairsm.png">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="archi" src="img/archibald.png">
+      </div>
+
+      <div class="card-front card-face">
+        <img class="card-value" src="img/clairsm.png">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="archi" src="img/archibald.png">
+      </div>
+
+      <div class="card-front card-face">
+        <img class="card-value" src="img/nuitsm.png">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="archi" src="img/archibald.png">
+      </div>
+
+      <div class="card-front card-face">
+        <img class="card-value" src="img/nuitsm.png">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="archi" src="img/archibald.png">
+      </div>
+
+      <div class="card-front card-face">
+        <img class="card-value" src="img/valsm.png">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="archi" src="img/archibald.png">
+      </div>
+
+      <div class="card-front card-face">
+        <img class="card-value" src="img/valsm.png">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="archi" src="img/archibald.png">
+      </div>
+
+      <div class="card-front card-face">
+        <img class="card-value" src="img/veuvesm.png">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="archi" src="img/archibald.png">
+      </div>
+
+      <div class="card-front card-face">
+        <img class="card-value" src="img/veuvesm.png">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="archi" src="img/archibald.png">
+      </div>
+
+      <div class="card-front card-face">
+        <img class="card-value" src="img/ciboiresm.png">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="archi" src="img/archibald.png">
+      </div>
+
+      <div class="card-front card-face">
+        <img class="card-value" src="img/ciboiresm.png">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="archi" src="img/archibald.png">
+      </div>
+
+      <div class="card-front card-face">
+        <img class="card-value" src="img/desireesm.png">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="archi" src="img/archibald.png">
+      </div>
+
+      <div class="card-front card-face">
+        <img class="card-value" src="img/desireesm.png">
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+
+  <footer>
+    <p>Created by <a target="_blank" href="https://www.griffincreative.ca">griffincreative.ca</a> for Archibald
+      Microbrasserie
+      Inc.<br>&copy; Archibald Microbrasserie 2020. All
+      Rights Reserved. </p>
+</body>
